@@ -1,31 +1,47 @@
 
 
-"""Lambdata - a collection of Data Science helper functions"""
+""" Add description of what functions are used for """
 
 
-# accessing libraries through pipenv
-import pandas as pd
-import numpy as np
+import math
+import sys
 
 
-class MyDataFrame(pd.DataFrame):
-    def null_count(self):
+def example1():
+     # THIS IS A LONG COMMENT AND should be wrapped to fit within a
+     # 72 character limit
+     some_tuple = (1, 2, 3, 'a')
+     some_variable = {
+         'long': ('LONG CODE LINES should be wrapped within 79 character '
+                  'to prevent page cutoff stuff'
+                  ),
+         'other': [math.pi, 100, 200, 300, 9999292929292,
+                   'This IS a long string that looks gross and goes beyond '
+                   'what it should'
+                   ],
+         'more': {
+             'inner': 'THIS whole logical line should be wrapped'
+         },
+         'data': [444, 5555, 222, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 5]
+     }
+     return some_tuple, some_variable
 
-        """
-        Checks dataframe for null values.
-        Returns the number of missing values.
-        """
 
-        return self.isna().sum()
+def example_2():
+     return {'has_key() is deprecated': True}
 
-    def list_2_series(self, list_2_add):
 
-        """
-        Takes in a list and pandas dataframe.
-        List is converted to pandas series and added to pandas dataframe.
-        Returns the dataframe with list added as a series/column.
-        """
+class Example3:
+     def __init__(self, bar):
+         self.bar = bar
 
-        as_series = pd.Series(list_2_add)
-        self['list'] = as_series
-        return self
+     def eval_bar(self):
+         if self.bar:
+             self.bar += 1
+             self.bar *= self.bar
+             return self.bar
+         some_string = """INDENTATION IN MULTIPLE STRINGS SHOULD NOT BE TOUCHED 
+         only actual code should be reindented, THIS IS MORE CODE
+         """
+         return sys.path, some_string
+
