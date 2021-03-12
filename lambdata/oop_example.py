@@ -2,12 +2,15 @@
 
 import pandas as pd
 
+
 class MyDataFrame(pd.DataFrame):
     def num_cells(self):
-        return self.shape[0] * self.shape[1] #number of cells in df
+        return self.shape[0] * self.shape[1]    # number of cells in df
+
 
 class BareMinimumClass:
     pass
+
 
 class Complex:
     def __init__(self, real_part, imag_part):
@@ -25,6 +28,7 @@ class Complex:
     def __repr__(self):
         return "({}, {})".format(self.r, self.i)
 
+
 class SocialMediaUser:
     def __init__(self, name, location, upvotes=0):
         self.name = str(name)
@@ -37,20 +41,23 @@ class SocialMediaUser:
     def is_popular(self):
         return self.upvotes > 100
 
+
 class Animal:
     """General Representation of Animals"""
     def __init__(self, name, weight, diet_type):
         self.name = str(name),
         self.weight = float(weight),
         self.diet_type = diet_type
+
     def run(self):
         return "Vroom, Vroom, I go quick"
 
     def eat(self, food):
         return "Huge fan of that " + food
 
-class Sloth(Animal):
 
+class Sloth(Animal):
+    """General Representation of Sloth inherited from Animals"""
     def __init__(self, name, weight, diet_type, num_naps=104):
         super().__init__(name, weight, diet_type)
         self.num_naps = num_naps # not in parent class so should define here
@@ -61,10 +68,13 @@ class Sloth(Animal):
 
     def run(self):
         return "I am a slow guy"
+
     def eat(self):
         return "I LIKE LEAAVVESSS"
+
     def say_something(self):
         return "this is a sloth of typing"
+
 
 if __name__ == '__main__':
     num1 = Complex(3, -5) # num1.r = 3, num1.i = -5
