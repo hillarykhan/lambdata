@@ -1,6 +1,8 @@
 """Basic Unit Tests for Lambdata package"""
+
 import lambdata as ld
 import lambdata.oop_example as oop_example
+
 
 # Testing __init__ in lambdata
 def test_increment_int():
@@ -54,7 +56,6 @@ def test_num_colors():
 user1 = oop_example.SocialMediaUser(name='Nick', location='Arizona')
 user2 = oop_example.SocialMediaUser(
     name='Carl', location='Costa Rica', upvotes=250)
-
 
 
 def test_smu_name():

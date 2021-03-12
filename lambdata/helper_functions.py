@@ -3,7 +3,6 @@
 
 # accessing libraries through pipenv
 import pandas as pd
-import numpy as np
 
 
 class MyDataFrame(pd.DataFrame):

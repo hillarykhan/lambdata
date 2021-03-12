@@ -60,7 +60,7 @@ class Sloth(Animal):
     """General Representation of Sloth inherited from Animals"""
     def __init__(self, name, weight, diet_type, num_naps=104):
         super().__init__(name, weight, diet_type)
-        self.num_naps = num_naps # not in parent class so should define here
+        self.num_naps = num_naps    # not in parent class so should define here
     # above line super(), etc. replaces the three lines of code below
     #     self.name = str(name),
     #     self.weight = float(weight),
@@ -77,8 +77,8 @@ class Sloth(Animal):
 
 
 if __name__ == '__main__':
-    num1 = Complex(3, -5) # num1.r = 3, num1.i = -5
-    num2 = Complex(2, 6) # num2.r = 2, num2.i = 6
+    num1 = Complex(3, -5)   # num1.r = 3, num1.i = -5
+    num2 = Complex(2, 6)    # num2.r = 2, num2.i = 6
 
     num1.add(num2)
     print("num1.r: {}, num1.i: {}".format(num1.r, num1.i))

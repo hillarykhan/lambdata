@@ -1,10 +1,12 @@
 import pytest
 from lambdata.wallet import Wallet
 
+
 @pytest.fixture
 def empty_wallet():
     """Returns a wallet instance with a zero balance"""
     return Wallet()
+
 
 @pytest.fixture
 def wallet():

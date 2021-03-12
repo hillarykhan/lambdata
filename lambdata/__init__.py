@@ -1,8 +1,5 @@
 """Lambdata - A collection of Data Science Helper functions"""
 
-import pandas
-import numpy
-
 
 def increment(x):
     return x + 1

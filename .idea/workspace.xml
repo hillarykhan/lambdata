@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886ca12e-0edd-4245-8862-9b9c6379bee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lambdata/wallet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_lambdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_wallet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lambdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lambdata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lambdata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambdata/code_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdata/code_review.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lambdata/helper_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdata/helper_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lambdata/oop_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdata/oop_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambdata/wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdata/wallet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_lambdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_lambdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_wallet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +92,8 @@
       <workItem from="1615562411617" duration="61000" />
       <workItem from="1615562496695" duration="423000" />
       <workItem from="1615563089184" duration="2211000" />
+      <workItem from="1615568517404" duration="4222000" />
+      <workItem from="1615590342773" duration="1925000" />
     </task>
     <servers />
   </component>
@@ -110,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lambdata$test_lambdata.coverage" NAME="test_lambdata Coverage Results" MODIFIED="1615564127246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
